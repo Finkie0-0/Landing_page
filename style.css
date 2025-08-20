@@ -112,3 +112,26 @@ a{
     width: 200px;
     height: 200px;
 }
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color:#E5E7EB;
+    color: #1f2937;
+    font-weight: 200;
+
+    padding: 10% 15%;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 100;
+    font-style:italic;
+
+    margin-bottom: 5px;
+}
+.person{
+    align-self: flex-end;
+    font-size: 20px;
+}
