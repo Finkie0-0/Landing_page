@@ -2,4 +2,75 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+body{
+    height: 100vh;
+}
+.header-container{
+    background-color: #1f2937;
+    color:#F9FAF8;
+
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    padding: 2% 12%;
+}
+.upper-header{
+    display: flex;
+    margin-bottom:15%;
+}
+.hero{
+    font-size: 48px;
+    font-weight: 900;
+}
+.header-logo{
+    font-weight: 600;
+}
+/*Top Header section*/
+
+
+.lower-header{
+    display: flex;
+    padding-bottom: 10%;
+}
+.left-section{
+    width: 50%;
+}
+.right-section{
+    margin-left: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 3;
+}
+img{
+    width: 350px;
+}
+
+button.sign-up{
+    margin-top: 10px;
+}
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+
+    font-weight: 600;
+
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+}
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+.links{
+    margin-left: auto;
+    display: flex;
+    gap:10px;
 }
