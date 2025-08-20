@@ -72,7 +72,7 @@ a{
 .links{
     margin-left: auto;
     display: flex;
-    gap:10px;
+    gap:15px;
 }
 /*Header section Done!*/
 
@@ -112,6 +112,9 @@ a{
     width: 200px;
     height: 200px;
 }
+
+/*Quote section*/
+
 .quote-container{
     display: flex;
     justify-content: center;
@@ -135,3 +138,31 @@ a{
     align-self: flex-end;
     font-size: 20px;
 }
+
+/*Call to action section*/
+
+.signup-container{
+    margin: 10%;
+    width: 85%;
+    height: 150px;
+    padding: 5% 10%;
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3882f6;
+    color: #E5E7EB;
+
+}
+
+.call-to-action{
+    border: 2px solid #F9FAF8;
+}
+
+.signup-left,
+.signup-right{
+    margin-top: 20px;
+}
+/*End of the call to action section*/
