@@ -48,7 +48,7 @@ body{
     align-items: center;
     flex-basis: 3;
 }
-img{
+.PC-image{
     width: 350px;
 }
 
@@ -82,7 +82,33 @@ a{
     align-items: center;
     flex-direction: column;
 
-    padding: 2%;
+    padding: 5%;
 
     color: #1f2937;
+}
+.subtitle{
+    font-size: 36px;
+    font-weight: 900;
+}
+.subtext-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 35px;
+
+    max-width: 500px;
+    gap: 15px;
+
+    flex: 1 1 auto;
+
+    text-align: center;
+}
+
+.illustrations{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+
+    width: 200px;
+    height: 200px;
 }
