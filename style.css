@@ -165,4 +165,16 @@ a{
 .signup-right{
     margin-top: 20px;
 }
+h4{
+    font-size: 20px;
+}
 /*End of the call to action section*/
+
+.footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
